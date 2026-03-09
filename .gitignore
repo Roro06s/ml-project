@@ -35,16 +35,16 @@ logs.txt
 *.h5
 *.pkl
 
-# Generated charts (sauf ceux dans assets/)
-btc_sniper_backtest.png
-eth_sniper_backtest.png
-wti_sniper_backtest.png
-wti_4h_backtest.png
-equity_curve.png
-crypto_ETH_USD_backtest.png
-crypto_ETH_USD_features.png
-data7_SPY_results.png
-data8_SPY_1h_results.png
+# Generated charts à la racine (pas dans assets/)
+/btc_sniper_backtest.png
+/eth_sniper_backtest.png
+/wti_sniper_backtest.png
+/wti_4h_backtest.png
+/equity_curve.png
+/crypto_ETH_USD_backtest.png
+/crypto_ETH_USD_features.png
+/data7_SPY_results.png
+/data8_SPY_1h_results.png
 
 # Old versions
 data*.py
