@@ -45,8 +45,8 @@ from datetime import timedelta
 # CONFIGURATION
 # ═══════════════════════════════════════════════════════════════
 
-TELEGRAM_TOKEN   = ""
-TELEGRAM_CHAT_ID = ""
+TELEGRAM_TOKEN   = ""   # Optionnel : ton token @BotFather
+TELEGRAM_CHAT_ID = ""   # Optionnel : ton chat ID Telegram
 
 SYMBOL             = "CL=F"        # WTI Crude Oil Futures
 PERIOD             = "7y"         # 7 ans optimal — pre-2019 détériore le signal (régimes trop différents)
