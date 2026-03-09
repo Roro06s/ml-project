@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+ml_env/
+venv/
+.venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs & data
+logs.txt
+*.log
+*.csv
+*.parquet
+*.h5
+*.pkl
+
+# Generated charts (sauf ceux dans assets/)
+btc_sniper_backtest.png
+eth_sniper_backtest.png
+wti_sniper_backtest.png
+wti_4h_backtest.png
+equity_curve.png
+crypto_ETH_USD_backtest.png
+crypto_ETH_USD_features.png
+data7_SPY_results.png
+data8_SPY_1h_results.png
+
+# Old versions
+data*.py
+data3.5
+text.py
+market_predictor.py
+WTI.py
+WTI1h.py
+WTI1H.py
+ETH-USD2.py
+
+# Credentials (IMPORTANT — ne jamais commiter)
+.env
+*.key
+secrets.json
